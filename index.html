@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Llanes - Portafolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/estilos.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Menú -->
+    <nav class="menu">
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#diario">Diario</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="container">
+
+        <!-- Inicio -->
+        <section id="inicio" class="text-center">
+            <img src="img/avatar.png" alt="Avatar de Lucas" class="foto">
+            <h1>Hola, soy Lucas Llanes</h1>
+            <p>Estudiante de 1.º año del Bachillerato Técnico en Informática (BTI).</p>
+            <p>Me gustan los deportes, los videojuegos y aprender cosas nuevas de tecnología.</p>
+        </section>
+
+        <!-- Sobre mí -->
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <p>Estudio en el Colegio Bautista de Encarnación. Elegí informática porque me gusta la tecnología y quiero aprender a crear mis propias páginas y programas.</p>
+            <p>Me considero una persona divertida, amigable y creativa. En mi tiempo libre juego al básquet y a los videojuegos con mis amigos.</p>
+        </section>
+
+        <!-- Proyectos -->
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <div class="card">
+                <img src="img/planify-feria.jpg" class="card-img-top" alt="Stand de Planify en la feria">
+                <div class="card-body">
+                    <h3 class="card-title">Planify</h3>
+                    <p>Planify es una aplicación web que arma itinerarios para salir en Encarnación. Elegís tus gustos, tu presupuesto, el tiempo que tenés y con quién vas, y la app te recomienda lugares.</p>
+                    <p>La hicimos en grupo con Milena Fleitas y Valentina Kranich usando HTML, CSS, JavaScript y Tailwind CSS. La presentamos en la feria del colegio.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <div class="card p-3 h-100">
+                        <h4>HTML</h4>
+                        <p class="mb-0">Sé armar la estructura de una página: títulos, párrafos, imágenes, enlaces, listas y formularios.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card p-3 h-100">
+                        <h4>CSS</h4>
+                        <p class="mb-0">Le doy estilo a mis páginas: colores, tamaños, márgenes y un menú fijo arriba.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card p-3 h-100">
+                        <h4>Bootstrap</h4>
+                        <p class="mb-0">Uso sus tarjetas, grillas y botones para que la página se vea ordenada y funcione en el celular.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card p-3 h-100">
+                        <h4>Canva</h4>
+                        <p class="mb-0">Lo usé para diseñar los folletos y el material del stand de Planify.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Diario de aprendizaje -->
+        <section id="diario">
+            <h2>Diario de aprendizaje</h2>
+            <div class="card p-3 mb-3">
+                <h4>Avances</h4>
+                <p>Aprendí a hacer páginas con HTML y a darles estilo con CSS. Después empecé a usar Bootstrap para que se vean bien también en el celular.</p>
+            </div>
+            <div class="card p-3 mb-3">
+                <h4>Desafíos</h4>
+                <p>Lo que más me costó fue acomodar las cosas con CSS, porque a veces se movían para cualquier lado. Probando de a poco lo fui entendiendo.</p>
+            </div>
+            <div class="card p-3 mb-3">
+                <h4>Reflexión</h4>
+                <p>Con Planify aprendí a trabajar en equipo y a presentar un proyecto. Quiero seguir aprendiendo JavaScript para hacer páginas más completas.</p>
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p class="text-center">Si querés saber más de mis proyectos, podés escribirme:</p>
+            <div class="row g-3 justify-content-center">
+                <div class="col-md-5">
+                    <div class="card p-3 text-center h-100">
+                        <h4>Email</h4>
+                        <a href="mailto:lucasllanes014@gmail.com">lucasllanes014@gmail.com</a>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="card p-3 text-center h-100">
+                        <h4>Instagram</h4>
+                        <a href="https://www.instagram.com/lucasllanes01/" target="_blank">@lucasllanes01</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>Lucas Llanes - <span id="anio">2026</span></p>
+        <p>
+            <a href="https://www.instagram.com/lucasllanes01/" target="_blank">Instagram</a> |
+            <a href="https://www.linkedin.com/in/lucas-llanes-a24514440/" target="_blank">LinkedIn</a>
+        </p>
+        <p class="creditos">Créditos: avatar y foto de Planify propios.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
